@@ -18,8 +18,8 @@
       }
     </style>
   </head>
-  <body style="margin:0; max-width:100%; background-attachement:fixed; background-repeat:no-repeat; background-size:cover;">
-      <div style="background:red; padding:5px; margin:0; max-width:100%;">
+  <body style="margin:0; max-width:100%; background-attachement:fixed; background-repeat:no-repeat; background-size:cover; overflow:scroll;">
+      <div style="background:red; padding:5px; margin:0; max-width:100%;" onscrolldown="">
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
@@ -40,6 +40,15 @@
     <div style="background:black; text-align:center; padding:5px; margin:0; max-width:100%; color:white; height:100px;">
       This is footer area
     </div>
+    <script>
+var x = 0;
+function myFunction() {
+    document.getElementById("home").innerHTML = x += 1;
+}
+      if (x>10){
+      document.getElementById("home").style.display= "fixed";
+      }
+</script>
   </body>
 </html>
     
