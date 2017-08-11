@@ -20,8 +20,20 @@
         color:white;
         text-decoration:none; 
       }
+      .topnav{
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    transition: all 0.2s ease-in-out;
+    height: auto;
+    background-color:red;  
+    line-height: 40px;
+      }
       .topnav.active{
-       background: red;
+       background: blue;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
       }
     </style>
   </head>
