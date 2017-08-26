@@ -1,0 +1,159 @@
+ body{
+       margin:0;
+       max-width:100%;
+      }
+      h1 h2{
+       text-transform:uppercase; 
+        font-weight:bold;
+      }
+       *{
+        font-family:sans-serif;      
+      }
+      ul li{
+        padding:10px;
+        margin:3px;
+        display:inline;
+      }
+      
+      li:hover{
+        background:#CCC;
+        padding:10px;
+        color:white;
+      }
+      
+    #portfolio {
+        padding:5px 0px;
+        margin:30px 0px 5px 0px;
+        text-align:center; 
+        height:700px;
+      }
+      .phead{
+        text-transform:uppercase;
+        padding:5px;
+        margin-top:0px;
+       background:; 
+       border-radius:0% 0% 50% 0%;
+      }
+      a{
+        font-weight:bold;
+        color:white;
+       text-decoration:none; 
+        text-transform:uppercase;
+        outline:none;
+      }
+      .topnav{
+        top:0;
+        left:0;
+        right:0;
+      position: fixed;
+      max-width: 100%;
+     z-index: 10000;
+    transition: all 0.2s ease-in-out;
+    height: auto;
+    outline:1px solid blue;  
+    line-height: 40px;
+      }
+      .topnav.active{
+       background: blue;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+      }
+      .sportfolio{
+       outline: 1px solid red; 
+        width:32%;
+        margin:2%;
+      }
+      .flexer{
+       max-width:100%;
+       display:flex; 
+        padding:5%;
+      }
+      .bheader{
+        left:0px;
+        right:0px;
+        margin:0px;
+        padding:2%;
+       background:red;
+        text-transform:uppercase;
+      }
+    input{
+        padding:1%;
+        margin:1%;
+        border:none;
+        width:30%;
+      }
+      
+    button{
+       text-transform:uppercase;
+       border:none;
+       font-weight:bold;
+       padding:1%;
+       width:30%;
+      }
+      button:hover{
+       background:#80e3f9; 
+       color: #f7fafa;
+      }
+      
+      #Aboutme{
+      color:white;
+       background: #e4dedd;
+        padding:5px 0px;
+       
+          text-align:center;
+           height:70%;
+           
+      }
+      
+      .footer{
+      background:black;
+       text-align:center;
+        padding:2%;
+         margin:0;
+          max-width:100%;
+           color:white;
+           
+      }
+@media (max-width:600px){
+        .flexer{
+         display:flex;
+         flex-direction:column;
+         }
+        .sportfolio{
+         margin-top:100px;
+         width:100%;      
+        }
+         input{
+        padding:2%;
+        margin:2%;
+        border:none;
+        width:90%;
+      }
+      
+    button{
+       text-transform:uppercase;
+       border:none;
+       font-weight:bold;
+       padding:2%;
+       width:90%;
+      }
+      
+      #Aboutme{
+      color:white;
+       background: #e4dedd;
+        padding:2%;
+         margin-top:995px;
+          text-align:center;
+           height:100%;
+      }
+      
+      .footer{
+      background:black;
+       text-align:center;
+        padding:2%;
+         margin-top:0%;
+          max-width:100%;
+           color:white;
+   
+      }
