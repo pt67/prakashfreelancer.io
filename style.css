@@ -127,10 +127,10 @@
          margin-top:100px;
          width:100%;      
         }
-      ul:nth-child(3) li{
+      li:nth-child(3){
          display:none;
          }
-       ul:nth-child(2) li{
+       li:nth-child(2){
          display:none;
          }
          input{
