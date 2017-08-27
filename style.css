@@ -127,7 +127,7 @@
          margin-top:100px;
          width:100%;      
         }
-      .topnav::after{
+      ul:nth-child(3) li{
          display:none;
          }
          input{
