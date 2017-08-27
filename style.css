@@ -129,7 +129,9 @@
          margin-top:100px;
          width:100%;      
         }
-
+.topnav{
+ background:blue;
+ }
    .topnav a:not(:last-child) {display: none;}
   .topnav a.icon {
     float: right;
