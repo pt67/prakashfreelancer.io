@@ -127,6 +127,9 @@
          margin-top:100px;
          width:100%;      
         }
+      .topnav{
+         display:none;
+         }
          input{
         padding:2%;
         margin:2%;
