@@ -135,6 +135,9 @@
        li:nth-child(1){
          display:none;
          }
+       .topnav{
+        display:block;
+        }
          input{
         padding:2%;
         margin:2%;
