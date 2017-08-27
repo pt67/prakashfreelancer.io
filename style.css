@@ -133,6 +133,9 @@
        li:nth-child(2){
          display:none;
          }
+       li:nth-child(1){
+         display:none;
+         }
          input{
         padding:2%;
         margin:2%;
