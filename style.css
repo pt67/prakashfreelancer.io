@@ -112,9 +112,12 @@
         padding:2%;
          margin:0;
           max-width:100%;
-           color:white;
-           
+           color:white;   
       }
+
+.icon{
+ display:none;
+}
 @media (max-width:600px){
         .flexer{
          display:flex;
@@ -130,7 +133,9 @@
         border:none;
         width:90%;
       }
-      
+      .icon{
+   display:inherit;     
+ }
     button{
        text-transform:uppercase;
        border:none;
