@@ -9,17 +9,8 @@
        *{
         font-family:sans-serif;      
       }
-      ul li{
-        padding:10px;
-        margin:3px;
-        display:inline;
-      }
+
       
-      li:hover{
-        background:#CCC;
-        padding:10px;
-        color:white;
-      }
       
     #portfolio {
         padding:5px 0px;
@@ -59,6 +50,20 @@
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
       }
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
       .sportfolio{
        outline: 1px solid red; 
         width:32%;
