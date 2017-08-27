@@ -10,9 +10,16 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#Aboutme">About me</a></li>
-        <li><a class="icon" href="#">&#9776;</a></li>
+        <li><a class="icon" href="#" onclick="MenuShow()">&#9776;</a></li>
       </ul>
       </div>
+    <script>
+      function MenuShow(){
+       document.getElementById("topnav").style.display="block"; 
+        
+      }
+      
+    </script>
     <script>
 $(window).on("scroll", function() {
     if($(window).scrollTop() > 500) {
