@@ -127,6 +127,9 @@
          margin-top:100px;
          width:100%;      
         }
+     hr{
+       display:none;    
+ }
       li:nth-child(3){
          display:none;
          }
