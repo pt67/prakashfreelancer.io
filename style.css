@@ -92,6 +92,7 @@ textarea{
  resize:none;
  width:30%;
  magrin:1%;
+ border:none;
 }
     button{
        text-transform:uppercase;
