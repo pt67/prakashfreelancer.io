@@ -162,6 +162,14 @@ textarea{
         border:none;
         width:90%;
       }
+ 
+ textarea{
+ padding:1%;
+ resize:none;
+ width:30%;
+ magrin:1%;
+}
+ 
       .icon{
    display:inherit;     
  }
