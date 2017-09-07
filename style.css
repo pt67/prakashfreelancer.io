@@ -87,6 +87,10 @@
         width:30%;
       }
       
+textarea{
+ resize:none;
+ width:relative;
+}
     button{
        text-transform:uppercase;
        border:none;
