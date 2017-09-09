@@ -169,7 +169,10 @@ textarea{
  width:90%;
  magrin:1%;
 }
- 
+ #portfolio{
+  padding-buttom:0;
+  
+ }
       .icon{
    display:inherit;     
  }
