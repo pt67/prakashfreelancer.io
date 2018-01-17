@@ -71,6 +71,9 @@
        display:flex; 
         padding:5%;
       }
+.flexer img{
+ height:500px;
+}
       .bheader{
         left:0px;
         right:0px;
