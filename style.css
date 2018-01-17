@@ -78,6 +78,7 @@
         padding:2%;
        background:red;
         text-transform:uppercase;
+       display:none;
       }
     input{
         padding:1%;
