@@ -72,6 +72,24 @@ a{
       text-align:center; 
       height:700px;
 }
+
+#home img{
+border:3px solid red;
+animation:chan 3s infinite;
+} 
+
+@keyframes chan{
+      0%{
+            border: 3px solid red;
+      }
+      50%{
+            border:5px solid blue;
+      }
+      100%{
+            border:10px solid gray;
+      }
+}
+
 #home h1::first-letter{
       color:#4e9a06;
 }
