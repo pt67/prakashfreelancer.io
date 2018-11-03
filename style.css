@@ -272,7 +272,7 @@ button:hover{
 
 /* MOBILE VERSION  */
 
-@media (max-width:600px){
+@media and screen (max-width:600px){
       #portfolio{
        margin:auto;
        padding:0;    
