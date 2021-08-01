@@ -198,6 +198,8 @@ animation:chan 3s infinite;
       text-align:center;
       padding:10%;
       background:#e0e2dd;
+      width:auto;
+      magin:auto; 
 }
 
 .contact form{
