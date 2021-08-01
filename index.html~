@@ -108,9 +108,9 @@ $(window).on("scroll", function() {
     <div class="contact" id="contact">
             <h2 style="text-transform:uppercase;">Contact me</h2>
             <form method="POST" action="#" netlify>
-              <input type="text" Placeholder="Name" name='name' required="Name">
-              <input type="email" Placeholder="Email" name='email' required="Email">
-              <textarea row="10" placeholder="Write message..." name='message' required></textarea>
+              <input type="text" Placeholder="Name" name='name' required="Name"><br>
+              <input type="email" Placeholder="Email" name='email' required="Email"><br>
+              <textarea row="10" placeholder="Write message..." name='message' required></textarea><br>
               <div class="btn-grp"><button type="submit">Submit</button></div>
             </form>
     </div>
