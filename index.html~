@@ -50,7 +50,7 @@ $(window).on("scroll", function() {
 </script>
     <div id="home">
           <h1>PRAKASH</h1>
-          <a href="https://www.upwork.com/o/profiles/users/_~01a77a76498a22f0c7/"><img style = "border-radius:100%; width:200px; height:200px;" src="https://www.yenidendogus.net/forum/customavatars/avatar28446_1.gif"></a>
+          <a href=""><img style = "border-radius:100%; width:200px; height:200px;" src="https://www.yenidendogus.net/forum/customavatars/avatar28446_1.gif"></a>
     </div>
     
     <div id="portfolio">
@@ -108,9 +108,9 @@ $(window).on("scroll", function() {
     <div class="contact" id="contact">
             <h2 style="text-transform:uppercase;">Contact me</h2>
             <form method="POST" action="#" netlify>
-              <input type="text" Placeholder="Name" name='name' required="Name"><br>
-              <input type="email" Placeholder="Email" name='email' required="Email"><br>
-              <textarea row="10" placeholder="Write message..." name='message' required></textarea><br>
+              <input type="text" Placeholder="Name" name='name' required="Name">
+              <input type="email" Placeholder="Email" name='email' required="Email">
+              <textarea row="10" placeholder="Write message..." name='message' required></textarea>
               <div class="btn-grp"><button type="submit">Submit</button></div>
             </form>
     </div>
