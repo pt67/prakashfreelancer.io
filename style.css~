@@ -312,6 +312,10 @@ padding:5px;
       transition:1s ease-in-out;
       animation: speedit 5s; 
 } 
+
+.sportfolio.active img{
+      width: 100%;
+}
  
 .topnav a:not(:last-child) {display: none;}
  
