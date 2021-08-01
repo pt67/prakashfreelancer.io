@@ -306,6 +306,16 @@ padding:5px;
        .sportfolio img{
        width:100%;       
        }
+       
+      .sportfolio.active{
+      margin:5px auto;
+      transition:1s ease-in-out;
+      animation: speedit 5s; 
+} 
+
+.sportfolio.active img{
+      width: 100%;
+}
  
 .topnav a:not(:last-child) {display: none;}
  
@@ -355,13 +365,7 @@ textarea{
   
  }
  
-.sportfolio.active{
-      box-shadow: 1px 1px 1px 1px #eeeeec;
-      padding:0px 0px 10px 0px;
-      margin:5px;
-      transition:1s ease-in-out;
-      animation: speedit 5s; 
-}  
+ 
  
 .icon{
       display:inherit;     
