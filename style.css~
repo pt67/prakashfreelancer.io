@@ -9,7 +9,9 @@ h1 h2{
 }
       
 *{
-       font-family:sans-serif;      
+       font-family:sans-serif;
+       
+             
 }   
       
 .phead{
@@ -298,11 +300,12 @@ padding:5px;
        padding:0;      
        margin:auto;
        }
-      .sportfolio{
-       margin:5px auto;      
+      .flexer .sportfolio{
+       margin:5px auto;
+       width:360px;      
        }
        
-       .sportfolio img{
+       .flexer .sportfolio img{
         width:360px;       
        }
        
@@ -311,6 +314,7 @@ padding:5px;
       margin:5px auto;
       transition:1s ease-in-out;
       animation: speedit 5s; 
+      width: 360px;
 } 
 
 .sportfolio.active img{
