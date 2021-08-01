@@ -301,9 +301,11 @@ padding:5px;
       .sportfolio{
        margin:5px auto;      
        }
+       
        .sportfolio img{
-       width:100%;       
+        width:360px;       
        }
+       
        
       .sportfolio.active{
       margin:5px auto;
