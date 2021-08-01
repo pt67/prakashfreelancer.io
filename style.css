@@ -354,6 +354,15 @@ textarea{
       padding-bottom:0;
   
  }
+ 
+.sportfolio.active{
+      box-shadow: 1px 1px 1px 1px #eeeeec;
+      padding:0px 0px 10px 0px;
+      margin:5px;
+      transition:1s ease-in-out;
+      animation: speedit 5s; 
+}  
+ 
 .icon{
       display:inherit;     
 }
