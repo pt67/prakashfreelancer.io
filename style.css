@@ -356,6 +356,7 @@ button{
       padding:2%;
       text-align:center;
       margin-top: 5px;
+      width:100%; 
 }
       
 .footer{
@@ -363,7 +364,7 @@ button{
       text-align:center;
       padding:2%;
       margin-top:0%;
-      max-width:100%;
+      width:100%;
       color:white;
    
 }
