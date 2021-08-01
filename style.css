@@ -187,9 +187,9 @@ animation:chan 3s infinite;
     #Aboutme{
       color:white;
       background: #A4C9A4;
-      padding:5% 10% 5% 10%;
       text-align:center;
       margin-top:5px; 
+      padding:5% 10%;
 }
 
 
@@ -365,7 +365,7 @@ textarea{
       padding:2%;
       text-align:center;
       margin-top: 5px;
-      width:100%; 
+      
 }
 
 
@@ -375,7 +375,7 @@ textarea{
       text-align:center;
       padding:2%;
       margin-top:0%;
-      width:100%;
+      
       color:white;
    
 }

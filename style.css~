@@ -187,9 +187,9 @@ animation:chan 3s infinite;
     #Aboutme{
       color:white;
       background: #A4C9A4;
-      padding:5% 10% 5% 10%;
       text-align:center;
       margin-top:5px; 
+      padding:5% 10%;
 }
 
 
@@ -335,7 +335,6 @@ padding:5px;
 .contact form{
 width: 80%;
 margin:auto;
-background:red;
 }
  
 input{
@@ -366,7 +365,7 @@ textarea{
       padding:2%;
       text-align:center;
       margin-top: 5px;
-      width:100%; 
+      
 }
 
 
