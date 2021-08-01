@@ -196,8 +196,9 @@ animation:chan 3s infinite;
 
 .contact{
       text-align:center;
-      padding:10%;
+      padding:10% 0%;
       background:#e0e2dd;
+      width:100%; 
 
 }
 
@@ -205,11 +206,11 @@ animation:chan 3s infinite;
        display:flex;
        flex-direction:column;
        width:30%;
-       magin:auto; 
+       margin:auto; 
 }
 
 .contact input{
-       padding:1%;
+       padding:10px;
        margin-bottom:1%;
        border:none;
        border-radius: 5px;
@@ -217,7 +218,7 @@ animation:chan 3s infinite;
 }
       
 .contact textarea{
-       padding:1%;
+       padding:10px;
        resize:none;
        border:none;
        border-radius: 5px;
@@ -228,7 +229,7 @@ animation:chan 3s infinite;
        text-transform:uppercase;
        border:none;
        font-weight:bold;
-       padding:1%;
+       padding:10px;
        margin-top:1%;
        cursor:pointer;
        border-radius: 5px;
