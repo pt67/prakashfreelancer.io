@@ -198,7 +198,7 @@ animation:chan 3s infinite;
       text-align:center;
       padding:10%;
       background:#e0e2dd;
-      width:auto;
+      width:30%;
       magin:auto; 
 }
 
@@ -230,7 +230,6 @@ animation:chan 3s infinite;
        border:none;
        font-weight:bold;
        padding:1%;
-       width:30%;
        margin-top:1%;
        cursor:pointer;
        border-radius: 5px;
