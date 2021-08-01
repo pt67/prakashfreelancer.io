@@ -199,7 +199,13 @@ animation:chan 3s infinite;
       padding:10%;
       background:#e0e2dd;
 }
- input{
+
+.contact form{
+       display:flex;
+       flex-direction:column;
+}
+
+.contact input{
        padding:1%;
        margin-bottom:1%;
        border:none;
@@ -208,7 +214,7 @@ animation:chan 3s infinite;
        box-shadow:3px 2px 1px #333;
 }
       
-textarea{
+.contact textarea{
        padding:1%;
        resize:none;
        width:30%;
@@ -217,7 +223,7 @@ textarea{
        box-shadow:3px 2px 1px #333;
 }
     
-button{
+.contact button{
        text-transform:uppercase;
        border:none;
        font-weight:bold;
@@ -229,7 +235,7 @@ button{
        box-shadow:3px 2px 1px #333;
 }
       
-button:hover{
+.contact button:hover{
        background:#80e3f9; 
        color: #f7fafa;
 }
