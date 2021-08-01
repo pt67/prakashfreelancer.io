@@ -178,10 +178,11 @@ animation:chan 3s infinite;
       color: white;
     }
     
-    .html {width: 90%; background-color: #4CAF50;}
-    .css {width: 80%; background-color: #2196F3;}
-    .js {width: 65%; background-color: #f44336;}
-    .php {width: 60%; background-color: #808080;}
+    .html {width: 95%; background-color: #4CAF50;}
+    .css {width: 90%; background-color: #2196F3;}
+    .js {width: 85%; background-color: #f44336;}
+    .php {width: 70%; background-color: #808080;}
+    .python{width:60%; background-color:#ffff33; color:#333;}
 
 
     /* -------------------- About me-------------------------  */
