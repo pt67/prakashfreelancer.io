@@ -1,10 +1,12 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
   <head><title>Portfolio- Prakash's web</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" initial-scale=1.0/>
+    <meta name="content" description="Web developer in Nepal. A personal portfolio of prakash.">
     <script src="min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css"/>
-    
+
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90660610-1"></script>
@@ -27,7 +29,7 @@
            <a href="#contact">Contact</a>
         <a class="icon" href="javascript:void(0);" onclick="MenuShow()">&#9776;</a>
     </div>
-    
+
     <script>
       function MenuShow(){
     var x = document.getElementById("topnav");
@@ -47,19 +49,64 @@ $(window).on("scroll", function() {
        $(".topnav").removeClass("active");
     }
 });
+
+//portfolio
+
+
+
+window.onscroll = function(){
+if(window.scrollY > 700 && window.scrollY < 1100){
+
+document.querySelectorAll('#topnav a')[1].style.background="red";
+
+}else{
+document.querySelectorAll('#topnav a')[1].style.background="";
+}
+
+//about me
+
+if(window.scrollY > 1200 && window.scrollY < 1700){
+
+document.querySelectorAll('#topnav a')[2].style.background="red";
+
+loadScores();
+
+
+}else{
+document.querySelectorAll('#topnav a')[2].style.background="";
+}
+
+
+
+//Contact
+
+if(window.scrollY > 1750 && window.scrollY < 2500){
+
+document.querySelectorAll('#topnav a')[3].style.background="red";
+
+}else{
+document.querySelectorAll('#topnav a')[3].style.background="";
+}
+
+
+}
+
+
+
+
 </script>
     <div id="home">
           <h1>PRAKASH</h1>
           <a href="https://www.fiverr.com/pkzone"><img style = "border-radius:100%; width:200px; height:200px;" src="https://www.yenidendogus.net/forum/customavatars/avatar28446_1.gif"></a>
     </div>
-    
+
     <div id="portfolio">
       <h1>Portfolio</h1>
       <div class="flexer">
         <div class="sportfolio">
         <img src="images/landing.png" >
          <h4>Landing pages</h4>
-        
+
         <p>A landing page is one of the strongest way of building leads.</p>
        </div>
       <div class="sportfolio">
@@ -72,17 +119,17 @@ $(window).on("scroll", function() {
         <h4> Django app </h4>
          <p>A powerful way to build AI web platform</p>
         </div>
-        
+
       </div>
     </div>
 
-    
+
    <div id= "Aboutme">
        <h2 style="text-transform:uppercase;">About me</h2>
       <p>Being a successful developer doesn't mean a some skill of implement, they needs to be come up with new technique.
       Passion is the most strongest leader of skill in my opinion. I am growing with my experience from zero to this experience level is just because of being product oriented .
-      I also help people online in their products success. 
-    
+      I also help people online in their products success.
+
      <div class="">
     <!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
 
@@ -100,35 +147,35 @@ $(window).on("scroll", function() {
 
 <script id='fiverr-seller-widget-script-24206b2c-f7bc-4d73-9a9c-b5a5e048ae59' src='https://widgets.fiverr.com/api/v1/seller/pkzone?widget_id=24206b2c-f7bc-4d73-9a9c-b5a5e048ae59' data-config='{"category_name":"\n                                    Programming \u0026 Tech\n\n                            "}' async='true' defer='true'></script>
 
-     </div> 
+     </div>
 
       <div class="skill">
             <h2>My Top skills</h2>
             <p>HTML</p>
               <div class="container">
-              <div class="skills html">95%</div>
+              <div class="skills html">0%</div>
               </div>
-      
+
               <p>CSS</p>
               <div class="container">
-              <div class="skills css">90%</div>
+              <div class="skills css">0%</div>
               </div>
-      
+
               <p>JavaScript</p>
               <div class="container">
-              <div class="skills js">85%</div>
+              <div class="skills js">0%</div>
               </div>
-      
+
               <p>PHP</p>
               <div class="container">
-              <div class="skills php">70%</div>
+              <div class="skills php">0%</div>
               </div>
               <p>Python</p>
               <div class="container">
-              <div class="skills python">60%</div>
+              <div class="skills python">0%</div>
               </div>
       </div>
-     
+
 
     </div>
     <div class="contact" id="contact">
@@ -141,7 +188,7 @@ $(window).on("scroll", function() {
             </form>
     </div>
     <div class="footer">
-     &copy 2017 copyright by Prakash
+
     </div>
     <div class="tops">
     <a href="#home"><b>top</b></a>
@@ -155,16 +202,27 @@ $(window).on("scroll", function() {
        $(".tops").removeClass("active");
     }
 });
-</script>
-        <script>
-          $(window).on("scroll", function() {
+
+$(window).on("scroll", function() {
               if($(window).scrollTop() > 400) {
                   $(".sportfolio").addClass("active");
               } else {
                   //remove the background property so it comes transparent again (defined in your css)
                  $(".tops").removeClass("active");
               }
-          });
+   });
+
+
+  var date = new Date();
+  document.querySelector('.footer').innerHTML = `
+ &copy ${date.getYear()} copyright by Prakash
+
+`;
+
+
+
           </script>
+
+<script src="script.js"></script>
   </body>
 </html>

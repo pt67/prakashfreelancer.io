@@ -4,32 +4,32 @@ body{
 }
 
 h1 h2{
-       text-transform:uppercase; 
+       text-transform:uppercase;
        font-weight:bold;
 }
-      
+
 *{
        font-family:sans-serif;
-       
-             
-}   
-      
+
+
+}
+
 .phead{
        text-transform:uppercase;
        padding:5px;
        margin-top:0px;
-       background:; 
+       background:;
        border-radius:0% 0% 50% 0%;
 }
-      
+
 a{
        font-weight:bold;
        color:white;
-       text-decoration:none; 
+       text-decoration:none;
        text-transform:uppercase;
        outline:none;
 }
-      
+
 .topnav{
        top:0;
        left:0;
@@ -39,11 +39,11 @@ a{
        max-width: 100%;
        z-index: 10000;
        transition: all 0.2s ease-in-out;
-       height: auto;  
+       height: auto;
        line-height: 40px;
-      
+
  }
- 
+
 .topnav.active{
        background: #4e9a06;
        -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
@@ -68,16 +68,16 @@ a{
 }
 
 #home{
-      color:white; 
-      background: #afeefc; 
-      padding: 20% 0% 0%; 
-      text-align:center; 
+      color:white;
+      background: #afeefc;
+      padding: 20% 0% 0%;
+      text-align:center;
       height:700px;
 }
 #home img{
 border:3px solid red;
 animation:chan 3s infinite;
-} 
+}
 
 @keyframes chan{
       0%{
@@ -98,18 +98,18 @@ animation:chan 3s infinite;
 }
 
 /* PORTFOLIO SECTION  */
-      
+
 #portfolio {
        padding:5% 10% 5% 10%;
        text-align:center;
-} 
+}
 #portfolio h1{
        text-transform: uppercase;
-}        
+}
 .flexer{
        max-width:100%;
        margin:auto;
-       display:flex; 
+       display:flex;
        justify-content:center;
 }
 
@@ -127,8 +127,8 @@ animation:chan 3s infinite;
       padding:0px 0px 10px 0px;
       margin:5px;
       transition:1s ease-in-out;
-      animation: speedit 5s; 
-}   
+      animation: speedit 5s;
+}
 
 @keyframes speedit{
       0%{margin-top:200px;}
@@ -137,11 +137,11 @@ animation:chan 3s infinite;
 
 .sportfolio h4{
        text-transform: uppercase;
-} 
+}
 .sportfolio p{
        padding:10px;
 
-}  
+}
 .sportfolio img{
        width: 100%;
        height: 200px;
@@ -170,28 +170,28 @@ animation:chan 3s infinite;
       width: 100%;
       background-color: #ddd;
     }
-    
+
     .skills {
       text-align: right;
       padding-right: 20px;
       line-height: 20px;
       color: white;
     }
-    
-    .html {width: 95%; background-color: #4CAF50;}
-    .css {width: 90%; background-color: #2196F3;}
-    .js {width: 85%; background-color: #f44336;}
-    .php {width: 70%; background-color: #808080;}
-    .python{width:60%; background-color:#ffff33; color:#333;}
+
+    .html {width: 0%; background-color: #4CAF50;}
+    .css {width: 0%; background-color: #2196F3;}
+    .js {width: 0%; background-color: #f44336;}
+    .php {width: 0%; background-color: #808080;}
+    .python{width:0%; background-color:#ffff33; color:#333;}
 
 
     /* -------------------- About me-------------------------  */
-   
+
     #Aboutme{
       color:white;
       background: #A4C9A4;
       text-align:center;
-      margin-top:5px; 
+      margin-top:5px;
       padding:5% 10%;
 }
 
@@ -202,7 +202,7 @@ animation:chan 3s infinite;
       text-align:center;
       padding:10% 0%;
       background:#e0e2dd;
-      width:100%; 
+      width:100%;
 
 }
 
@@ -210,7 +210,7 @@ animation:chan 3s infinite;
        display:flex;
        flex-direction:column;
        width:30%;
-       margin:auto; 
+       margin:auto;
 }
 
 .contact input{
@@ -220,7 +220,7 @@ animation:chan 3s infinite;
        border-radius: 5px;
        box-shadow:3px 2px 1px #333;
 }
-      
+
 .contact textarea{
        padding:10px;
        resize:none;
@@ -232,7 +232,7 @@ animation:chan 3s infinite;
 .contact .btn-grp{
 padding:5px;
 }
-    
+
 .contact button{
        text-transform:uppercase;
        border:none;
@@ -243,14 +243,14 @@ padding:5px;
        border-radius: 5px;
        box-shadow:3px 2px 1px #333;
 }
-      
+
 .contact button:hover{
-       background:#80e3f9; 
+       background:#80e3f9;
        color: #f7fafa;
 }
-      
 
-      
+
+
 .footer{
       background:#A4C9A4;
       text-align:center;
@@ -258,7 +258,7 @@ padding:5px;
       margin:0;
       max-width:100%;
       color:#FFF;
-      outline:1px solid #4e9a06;   
+      outline:1px solid #4e9a06;
 }
 
 .topnav .icon{
@@ -289,41 +289,41 @@ padding:5px;
 
 @media (max-width:600px){
 	   #home{
-       width: 100%;	   
+       width: 100%;
 	   }
       #portfolio{
        margin:auto;
-       padding:0;    
+       padding:0;
        }
       .flexer{
        display:flex;
        flex-direction:column;
-       padding:0;      
+       padding:0;
        margin:auto;
        }
       .flexer .sportfolio{
        margin:5px auto;
-       width:360px;      
+       width:360px;
        }
-       
+
        .flexer .sportfolio img{
-        width:360px;       
+        width:360px;
        }
-       
-       
+
+
       .sportfolio.active{
       margin:5px auto;
       transition:1s ease-in-out;
-      animation: speedit 5s; 
+      animation: speedit 5s;
       width: 360px;
-} 
+}
 
 .sportfolio.active img{
       width: 360px;
 }
- 
+
 .topnav a:not(:last-child) {display: none;}
- 
+
 .topnav a.icon {
       float: right;
       display: block;
@@ -351,51 +351,51 @@ padding:5px;
 width: 80%;
 margin:auto;
 }
- 
+
 input{
       padding:2%;
       margin:2%;
       border:none;
-      
+
 }
- 
+
 textarea{
       padding:1rem;
       resize:none;
       margin:2%;
-      
+
 }
 #portfolio{
       padding-bottom:0;
-  
+
  }
- 
- 
- 
+
+
+
 .icon{
-      display:inherit;     
+      display:inherit;
 }
 
-      
+
 #Aboutme{
       color:white;
       background: #e4dedd;
       padding:2%;
       text-align:center;
       margin-top: 5px;
-      
+
 }
 
 
-      
+
 .footer{
       background:black;
       text-align:center;
       padding:2%;
       margin-top:0%;
-      
+
       color:white;
-   
+
 }
 
 .tops{
