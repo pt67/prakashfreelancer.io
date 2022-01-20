@@ -131,6 +131,26 @@ document.querySelectorAll('#topnav a')[3].style.background="";
       I also help people online in their products success.
 
 
+<!--
+    PeoplePerHour Profile Widget
+    The div#pph-hire me is the element
+    where the iframe will be inserted.
+    You may move this element wherever
+    you need to display the widget
+-->
+<div id="pph-hireme" style="background: transparent;"></div>
+<script type="text/javascript">
+(function(d, s) {
+    var useSSL = 'https:' == document.location.protocol;
+    var js, where = d.getElementsByTagName(s)[0],
+    js = d.createElement(s);
+    js.src = (useSSL ? 'https:' : 'http:') +  '//www.peopleperhour.com/hire/546596004/6678990.js?width=245&height=320&orientation=vertical&theme=light&hourlies=793089&rnd='+parseInt(Math.random()*10000, 10);
+    try { where.parentNode.insertBefore(js, where); } catch (e) { if (typeof console !== 'undefined' && console.log && e.stack) { console.log(e.stack); } }
+}(document, 'script'));
+</script>
+
+
+
 
       <div class="skill">
             <h2>My Top skills</h2>
